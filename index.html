@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script src="./assets/js/script.js" defer></script>
+    <title>Type two numbers</title>
+  </head>
+  <body>
+    <header>
+      <h1>Type two numbers</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Two numbers section</legend>
+          <div class="input-wrapper">
+            <label for="number1">Number 1</label>
+            <input id="number1" type="number" required />
+          </div>
+          <div class="input-wrapper">
+            <label for="number2">Number 2</label>
+            <input id="number2" type="number" required />
+          </div>
+          <div class="input-wrapper">
+            <input type="button" value="Run calc" onclick="runCalc()" />
+          </div>
+        </fieldset>
+      </form>
+
+      <div class="terminal">
+        <div class="terminal-decoration">
+          <div class="actions">
+            <div class="red-circle"></div>
+            <div class="yellow-circle"></div>
+            <div class="green-circle"></div>
+          </div>
+        </div>
+        <div class="terminal-text">
+          <div class="terminal-text-area"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
