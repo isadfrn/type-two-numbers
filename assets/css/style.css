@@ -1,0 +1,135 @@
+:root {
+  --font-code: 'Source Code Pro', monospace;
+  --font-page: 'Poppins', sans-serif;
+
+  --background: #44475A;
+  --background-hover: #5e627b;
+  --background-input: #F8F8F2;
+  --window-header: #282A36;
+  --red: #FF5555;
+  --yellow: #FFB86C;
+  --green: #50FA7B;
+  --light: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-page);
+}
+
+header {
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset legend {
+  display: none;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+input[type=number] {
+  border-radius: 0.6rem;
+  border: 1px solid #000000;
+  background-color: var(--background-input);
+  font-size: 1.1rem;
+  padding: 0.4rem;
+  width: 10rem;
+}
+
+input[type=button] {
+  background-color: var(--background);
+  color: var(--light);
+  border: none;
+  padding: 0.6rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 0.6rem;
+  transition: all 200ms ease;
+  width: 10rem;
+  margin: 1rem 0;
+}
+
+input[type=button]:hover {
+  cursor: pointer;
+  background-color: var(--background-hover);
+}
+
+.terminal {
+  margin: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminal-decoration {
+  background-color: var(--window-header);
+  width: 80%;
+  position: relative;
+}
+
+.actions {
+  height: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0.4rem;
+}
+
+.red-circle {
+  background-color: var(--red);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0 0.2rem;
+}
+
+.yellow-circle {
+  background-color: var(--yellow);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0 0.2rem;
+}
+
+.green-circle {
+  background-color: var(--green);
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  margin: 0 0.2rem;
+}
+
+.terminal-text {
+  background-color: var(--background);
+  height: 16rem;
+  width: 80%;
+}
+
+.terminal-text-area {
+  padding: 1rem 1.5rem;
+}
+
+.terminal-output {
+  color: var(--green);
+  font-family: var(--font-code);
+  font-size: 1.1rem;
+}
