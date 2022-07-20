@@ -8,6 +8,7 @@
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## Content language
 
@@ -15,7 +16,7 @@
 
 ## About
 
-A fully responsive page that does some math. It's part of [Rocketseat's Explorer Bootcamp](https://www.rocketseat.com.br/explorer).
+A fully responsive page that does some math.
 
 ![Demo page preview](./assets/img/demo.png)
 
